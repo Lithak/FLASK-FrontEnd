@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/FORM.css" />
+    <title>Form Input Wave</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1> Welcome to Signup</h1>
+      <form method="POST" id="signup" onsubmit="event.preventDefault(); signup();">
+        <div class="form-control">
+            <input type="name" name="name" required>
+            <label> Name </label>
+          </div>
+          <div class="form-control">
+            <input type="name" name="surname" required>
+            <label> Surname </label>
+          </div>
+      <div class="form-control">
+        <input type="text"name="email" required>
+        <label> Email </label>
+      </div>
+      <div class="form-control">
+        <input type="password" name="password" required>
+        <label> Password </label>
+      </div>
+      <button class="btn" type="submit">Login</button>
+      <p class"text">Make sure your details are correct! </p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <script src="./assets/landing.js"></script>
+  <script src="./assets/fetch.js"></script>
+  <script src="./assets/FORM.js"></script>
+  <script src="./assets/home.js"></script>
+</html>
+
+        

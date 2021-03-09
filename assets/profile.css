@@ -1,0 +1,71 @@
+    
+    /*CAROUSEL*/
+    #myCarousel h1{
+      position:absolute;
+      z-index:1;
+      display:flex;
+      align-items:center;
+      justify-content: center;
+      top:30%;
+      font-family: 'Pirata One', cursive;
+      color: rgb(250, 234, 8);
+      }
+      #myCarousel .sub-title,#myCarousel .btn1{
+      color: rgb(17, 233, 35);
+      position:absolute;
+      z-index:1;
+      display:flex;
+      align-items:center;
+      justify-content: center;
+      top:30%;
+      }
+      #myCarousel .btn1{
+      position:absolute;
+      top:50%;
+      left:45%;
+      }
+      .carousel-inner{
+      max-height:100vh;
+      width:100%;
+      }
+      #myCarousel img{
+      height:100%;
+      width:100%;
+      
+      }
+      @media (max-width:600px){
+      #myCarousel .btn1{
+      position:absolute;
+      left:30%;
+      top:55%;
+      }
+      .carousel-inner{
+      max-height:70vh;
+      width:100%;
+      }
+      #myCarousel img{
+      height:70vh;
+      width:100%;
+      }
+      }
+      
+      @-webkit-keyframes zoom {
+        from {
+          -webkit-transform: scale(1, 1);
+        }
+        to {
+          -webkit-transform: scale(1.2, 1.2);
+        }
+      }
+      @keyframes zoom {
+        from {
+          transform: scale(1, 1);
+        }
+        to {
+          transform: scale(1.2, 1.2);
+        }
+      }
+      .carousel-inner .item > img {
+        -webkit-animation: zoom 10s;
+        animation: zoom 10s;
+      }
