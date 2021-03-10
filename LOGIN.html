@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/FORM.css" />
-    <title>Form Input Wave</title>
+    <title>Login Messenger</title>
   </head>
   <body>
     <div class="container">
       <h1> Welcome to Login</h1>
-      <form method="POST" id="sigin" onsubmit="event.preventDefault(); signin();">
+      <form method="POST" id="signin" onsubmit="event.preventDefault(); signin();">
       <div class="form-control">
-        <input type="text" required>
-        <label> Email </label>
+        <input type="text" name="name" id="from" required>
+        <label> Name </label>
       </div>
       <div class="form-control">
-        <input type="password" required>
+        <input type="text" name="password" required>
         <label> Password </label>
       </div>
       <button class="btn" type="submit">Login</button>
@@ -23,8 +23,9 @@
       </form>
     </div>
     <script src="script.js"></script>
-  </body>
+  </body>                                   
   <script src="./assets/landing.js"></script>
+  <script src="./assets/form.js"></script>
   <script src="./assets/fetch.js"></script>
   <script src="./assets/FORM.js"></script>
   <script src="./assets/home.js"></script>

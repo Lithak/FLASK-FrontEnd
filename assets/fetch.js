@@ -29,7 +29,7 @@ function signin(){
 
     if (loggedIn.length >= 1) {
         alert('You have been successfully signed in!');
-        window.location.href='./LOGIN.html'
+        window.location.href='./chat.html'
     } else {
         alert('Invalid Login');
     }
