@@ -406,56 +406,6 @@
       padding: 0.5rem;
   }
   
-  /* || testimonials */
-  
-  .flex-testimonials {
-      margin-top: 2rem;
-      min-height: 32rem;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      flex-wrap: wrap;
-  }
-  
-  .flex-testimonials :nth-child(2) {
-      align-self: flex-end;
-  }
-  
-  .person-box {
-      background-color: var(--color-light-grey);
-  }
-  
-  .person-img {
-      margin-top: 1.25rem;
-      border-radius: 17% 88% 25% 75% / 75% 17% 88% 25%;
-      max-width: 10rem;
-  }
-  
-  .testimonial-quote {
-      margin: 1.25rem;
-      padding: 1.5rem;
-      border-radius: 17% 88% 25% 75% / 75% 17% 88% 25%;
-      background-color: rgb(73, 132, 180);
-      font-size: 1rem;
-      line-height: 1.5;
-      color: var(--color-white);
-  }
-  
-  .person-identity {
-      align-self: flex-start;
-      text-align: start;
-  }
-  
-  .person-name {
-      margin: 0rem 2rem;
-      font-size: 1rem;
-  }
-  
-  .person-position {
-      margin: 0 2rem 0.5rem;
-      font-size: 0.875rem;
-  }
-  
   /* || contact us */
   
   .flex-contact {
@@ -768,16 +718,6 @@
           margin: 0 2rem 2rem;
           max-width: 640px;
           /* width: 100%; */
-      }
-  
-      /* || testimonials */
-  
-      .flex-testimonials {
-          margin-top: 4rem;
-      }
-  
-      .person-box {
-          margin: 0 2rem 2rem;
       }
   
       /* || contact us */
